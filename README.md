@@ -46,7 +46,7 @@ and `GENERALIZATION_AUDIT.md`.
 
 ## Reproducible setup
 
-Clone with the PHIST submodule and install the locked environment:
+Clone the repository and install the locked environment:
 
 ```bash
 git clone https://github.com/JaivardhanSamadhiya/precisionphage.git
