@@ -1,0 +1,106 @@
+{
+  "protocol": "EXTERNAL_COCKTAIL_VALIDATION_PROTOCOL.md",
+  "frozen_prediction_sha256": "876c97d91b64158b9bda4a6df15cd510f2b1753da80c031a261570247932ef6d",
+  "external_outcome_sha256": "81f916e0daa84c00aa464e48f80a352973fd8d12de5c6347f8946de3647393f5",
+  "external_composition_sha256": "eab44b18fe4caece347795bc205a6882ec8a369f9199dfef13c68e5a36bbbc3d",
+  "primary_cocktail": {
+    "score_independence": {
+      "n": 100,
+      "positive": 82,
+      "prevalence": 0.82,
+      "roc_auc": 0.8069105691056909,
+      "average_precision": 0.9510445249242861,
+      "brier": 0.1272151879440307,
+      "ece": 0.07919204406042503
+    },
+    "cluster_bootstrap": {
+      "n_valid": 2000,
+      "roc_auc_95_ci": [
+        0.692812534209086,
+        0.9059261750301854
+      ],
+      "average_precision_95_ci": [
+        0.9044288250789868,
+        0.982845106568764
+      ]
+    },
+    "spearman_with_mlc": {
+      "rho": 0.4166510941490564,
+      "p_rowwise_descriptive": 1.6185746240905788e-05
+    }
+  },
+  "secondary_cocktail": {
+    "score_max": {
+      "n": 100,
+      "positive": 82,
+      "prevalence": 0.82,
+      "roc_auc": 0.8004742547425475,
+      "average_precision": 0.9489679702585445,
+      "brier": 0.12815820752867368,
+      "ece": 0.10037128712871289
+    },
+    "score_generalist": {
+      "n": 100,
+      "positive": 82,
+      "prevalence": 0.82,
+      "roc_auc": 0.323509485094851,
+      "average_precision": 0.7793873357319896,
+      "brier": 0.18336466453091302,
+      "ece": 0.17853324021356898
+    }
+  },
+  "secondary_selected_constituent_pairs": {
+    "ensemble": {
+      "n": 300,
+      "positive": 170,
+      "prevalence": 0.5666666666666667,
+      "roc_auc": 0.6681221719457013,
+      "average_precision": 0.7374641879877963,
+      "brier": 0.23532331389079503,
+      "ece": 0.12451320132013202
+    },
+    "two_way_cluster_bootstrap": {
+      "n_valid": 2000,
+      "roc_auc_95_ci": [
+        0.5592847991113997,
+        0.7750618439986456
+      ],
+      "average_precision_95_ci": [
+        0.5990183339740158,
+        0.870374318134819
+      ]
+    },
+    "logistic": {
+      "n": 300,
+      "positive": 170,
+      "prevalence": 0.5666666666666667,
+      "roc_auc": 0.6501809954751132,
+      "average_precision": 0.7253879217698459,
+      "brier": 0.23914051009989856,
+      "ece": 0.12232159881501091
+    },
+    "knn": {
+      "n": 300,
+      "positive": 170,
+      "prevalence": 0.5666666666666667,
+      "roc_auc": 0.6327149321266967,
+      "average_precision": 0.701470901059883,
+      "brier": 0.2618057471707266,
+      "ece": 0.1577061058902504
+    },
+    "training_prevalence": {
+      "n": 300,
+      "positive": 170,
+      "prevalence": 0.5666666666666667,
+      "roc_auc": 0.4929864253393665,
+      "average_precision": 0.553454558599975,
+      "brier": 0.2707839563445059,
+      "ece": 0.07243964353108193
+    }
+  },
+  "notes": [
+    "The primary cocktail score was frozen before held-out outcomes were read.",
+    "Selected-constituent pair analysis is secondary because pairs were selected by the published recommender.",
+    "This validates a fixed Escherichia phage bank on unseen hosts, not unseen-phage or Staphylococcus transfer."
+  ]
+}

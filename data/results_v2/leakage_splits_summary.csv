@@ -1,0 +1,6 @@
+regime,model,mean_auc,ci_lo,ci_hi,pooled_auc,pooled_pr,ece,folds_used
+loso_species,GBM,0.9033,0.751,0.9817,0.9586,0.9843,0.0209,28
+logo_genus,GBM,0.8841,0.8327,0.9293,0.9198,0.9614,0.0566,28
+host_cluster,GBM,0.8987,0.7947,0.9755,0.9505,0.981,0.0546,26
+phage_cluster,GBM,0.8581,0.7934,0.918,0.8471,0.7355,0.4273,22
+combined_unseen,GBM,0.7988,0.7517,0.8536,0.7852,0.9084,0.1629,5

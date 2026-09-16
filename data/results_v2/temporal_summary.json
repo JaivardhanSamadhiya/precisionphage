@@ -1,0 +1,182 @@
+{
+  "threshold_method": "fold-specific F1 on group-aware inner-OOF training predictions",
+  "fold_thresholds": [
+    0.14000000059604645,
+    0.41999998688697815,
+    0.23999999463558197,
+    0.2199999988079071,
+    0.23999999463558197
+  ],
+  "threshold_median": 0.23999999463558197,
+  "panel_taxa": [
+    "escherichia coli",
+    "pseudomonas aeruginosa",
+    "staphylococcus aureus",
+    "salmonella enterica",
+    "propionibacterium acnes"
+  ],
+  "panel_size": 5,
+  "parameters": {
+    "mutation_rate": 1e-07,
+    "resistance_cost": 0.05,
+    "burst_size": 50,
+    "adsorption_rate": 1e-09,
+    "horizon_hours": 96,
+    "dt_hours": 0.5,
+    "n_steps": 193,
+    "dose_per_phage": 100000000.0,
+    "resistance_independence": 1.0,
+    "resistance_assumption": "independent across targeting phages"
+  },
+  "panel_selection": "five eligible taxa with the most predicted candidate phages",
+  "outcomes": [
+    {
+      "strategy": "control",
+      "n_phages": 0,
+      "end_load": 1000000000.0,
+      "nadir": 5000000.0,
+      "log10_drop": 0.0,
+      "resistant_frac_end": 0.0,
+      "rebound": false
+    },
+    {
+      "strategy": "monophage",
+      "n_phages": 1,
+      "end_load": 999997256.5061868,
+      "nadir": 5000000.0,
+      "log10_drop": 0.0,
+      "resistant_frac_end": 0.0,
+      "rebound": false
+    },
+    {
+      "strategy": "cocktail_k1",
+      "n_phages": 3,
+      "end_load": 1000000002.8204194,
+      "nadir": 16897.11386347706,
+      "log10_drop": 2.47,
+      "resistant_frac_end": 1.0,
+      "rebound": true
+    },
+    {
+      "strategy": "robust_k2",
+      "n_phages": 6,
+      "end_load": 1000000001.4403596,
+      "nadir": 39828.70870192039,
+      "log10_drop": 2.1,
+      "resistant_frac_end": 1.0,
+      "rebound": true
+    }
+  ],
+  "resistance_sensitivity": {
+    "interpretation": "assumption stress test; not fitted mechanistic or efficacy validation",
+    "formula": "mu_eff = mu ** (1 + alpha * (n_targeting - 1))",
+    "alpha_values": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "mutation_rates": [
+      1e-08,
+      1e-07,
+      1e-06
+    ],
+    "resistance_costs": [
+      0.0,
+      0.05,
+      0.1
+    ],
+    "n_runs": 54,
+    "summary": [
+      {
+        "strategy": "cocktail_k1",
+        "n_phages": 3,
+        "resistance_independence": 0.0,
+        "resistance_structure": "complete_cross_resistance",
+        "n_scenarios": 9,
+        "rebound_scenarios": 9,
+        "resistant_takeover_scenarios": 9,
+        "nadir_min": 195.8055214309748,
+        "nadir_max": 96673.37549499329,
+        "end_load_min": 999999981.692624,
+        "end_load_max": 1000000002.8204194,
+        "log10_drop_min": 1.713663121439252,
+        "log10_drop_max": 4.407145070223367
+      },
+      {
+        "strategy": "cocktail_k1",
+        "n_phages": 3,
+        "resistance_independence": 0.5,
+        "resistance_structure": "partial_dependence",
+        "n_scenarios": 9,
+        "rebound_scenarios": 9,
+        "resistant_takeover_scenarios": 9,
+        "nadir_min": 195.8055214309748,
+        "nadir_max": 96673.37549499329,
+        "end_load_min": 999999981.692624,
+        "end_load_max": 1000000002.8204194,
+        "log10_drop_min": 1.713663121439252,
+        "log10_drop_max": 4.407145070223367
+      },
+      {
+        "strategy": "cocktail_k1",
+        "n_phages": 3,
+        "resistance_independence": 1.0,
+        "resistance_structure": "independent_resistance",
+        "n_scenarios": 9,
+        "rebound_scenarios": 9,
+        "resistant_takeover_scenarios": 9,
+        "nadir_min": 195.8055214309748,
+        "nadir_max": 96673.37549499329,
+        "end_load_min": 999999981.692624,
+        "end_load_max": 1000000002.8204194,
+        "log10_drop_min": 1.713663121439252,
+        "log10_drop_max": 4.407145070223367
+      },
+      {
+        "strategy": "robust_k2",
+        "n_phages": 6,
+        "resistance_independence": 0.0,
+        "resistance_structure": "complete_cross_resistance",
+        "n_scenarios": 9,
+        "rebound_scenarios": 9,
+        "resistant_takeover_scenarios": 9,
+        "nadir_min": 5901.566745773029,
+        "nadir_max": 258703.52880899867,
+        "end_load_min": 999999873.1345719,
+        "end_load_max": 1000000002.4049729,
+        "log10_drop_min": 1.2861676516464424,
+        "log10_drop_max": 2.928002681047137
+      },
+      {
+        "strategy": "robust_k2",
+        "n_phages": 6,
+        "resistance_independence": 0.5,
+        "resistance_structure": "partial_dependence",
+        "n_scenarios": 9,
+        "rebound_scenarios": 9,
+        "resistant_takeover_scenarios": 6,
+        "nadir_min": 5900.353428113661,
+        "nadir_max": 162361.9147194467,
+        "end_load_min": 39923586.71504754,
+        "end_load_max": 1000000020.0866692,
+        "log10_drop_min": 1.4884858400648353,
+        "log10_drop_max": 2.928091977900251
+      },
+      {
+        "strategy": "robust_k2",
+        "n_phages": 6,
+        "resistance_independence": 1.0,
+        "resistance_structure": "independent_resistance",
+        "n_scenarios": 9,
+        "rebound_scenarios": 9,
+        "resistant_takeover_scenarios": 6,
+        "nadir_min": 5900.353306782375,
+        "nadir_max": 162361.79293346472,
+        "end_load_min": 39923586.714868,
+        "end_load_max": 1000000020.090134,
+        "log10_drop_min": 1.4884861658247273,
+        "log10_drop_max": 2.928091986830819
+      }
+    ]
+  }
+}

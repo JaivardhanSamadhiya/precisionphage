@@ -1,0 +1,60 @@
+{
+  "threshold_method": "fold-specific F1 on group-aware inner-OOF training predictions",
+  "fold_thresholds": [
+    0.14,
+    0.42,
+    0.24,
+    0.22,
+    0.24
+  ],
+  "threshold_median": 0.24,
+  "n_phages": 1418,
+  "n_hosts": 323,
+  "n_targets": 230,
+  "n_predicted_targets": 219,
+  "greedy_min_size": 176,
+  "ilp_min_size": 176,
+  "ilp_oracle_min_size": 188,
+  "robustness": [
+    {
+      "k": 1,
+      "cocktail_size": 176,
+      "true_cover_>=1": 0.896,
+      "true_cover_>=k": 0.896
+    },
+    {
+      "k": 2,
+      "cocktail_size": 282,
+      "true_cover_>=1": 0.93,
+      "true_cover_>=k": 0.452
+    },
+    {
+      "k": 3,
+      "cocktail_size": 358,
+      "true_cover_>=1": 0.97,
+      "true_cover_>=k": 0.313
+    }
+  ],
+  "budget": [
+    {
+      "budget": 5,
+      "ilp_true_coverage": 0.135,
+      "greedy_true_coverage": 0.135
+    },
+    {
+      "budget": 10,
+      "ilp_true_coverage": 0.17,
+      "greedy_true_coverage": 0.178
+    },
+    {
+      "budget": 20,
+      "ilp_true_coverage": 0.235,
+      "greedy_true_coverage": 0.226
+    },
+    {
+      "budget": 30,
+      "ilp_true_coverage": 0.27,
+      "greedy_true_coverage": 0.27
+    }
+  ]
+}

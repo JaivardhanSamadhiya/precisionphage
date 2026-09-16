@@ -1,0 +1,5 @@
+regime,model,mean_auc,ci_lo,ci_hi,pooled_auc,pooled_pr,ece,folds_used
+loso,GBM,0.6399,0.6041,0.7199,0.7312,0.5699,0.0692,60
+logo,GBM,0.6688,0.602,0.735,0.6189,0.3787,0.2339,32
+cross_study,GBM,0.4864,0.4194,0.5677,0.1263,0.1873,0.5924,3
+cross_study,EdgeMLP,0.6078,0.5603,0.6933,0.3516,0.2381,0.3241,3

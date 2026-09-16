@@ -1,0 +1,971 @@
+{
+  "acholeplasma_laidlawii.fasta": [
+    "acholeplasma laidlawii"
+  ],
+  "achromobacter_xylosoxidans.fasta": [
+    "achromobacter xylosoxidans"
+  ],
+  "acinetobacter_baumannii.fasta": [
+    "acinetobacter baumannii"
+  ],
+  "acinetobacter_johnsonii.fasta": [
+    "acinetobacter johnsonii"
+  ],
+  "acinetobacter_soli.fasta": [
+    "acinetobacter soli"
+  ],
+  "actinomyces_naeslundii.fasta": [
+    "actinomyces naeslundii"
+  ],
+  "aeromonas_hydrophila.fasta": [
+    "aeromonas hydrophila"
+  ],
+  "aeromonas_media.fasta": [
+    "aeromonas media"
+  ],
+  "aeromonas_salmonicida.fasta": [
+    "aeromonas salmonicida"
+  ],
+  "aggregatibacter_actinomycetemcomitans.fasta": [
+    "aggregatibacter actinomycetemcomitans"
+  ],
+  "alteromonas_macleodii.fasta": [
+    "alteromonas macleodii"
+  ],
+  "alteromonas_marina.fasta": [
+    "alteromonas marina"
+  ],
+  "anabaena_variabilis.fasta": [
+    "anabaena variabilis"
+  ],
+  "azospirillum_brasilense.fasta": [
+    "azospirillum brasilense"
+  ],
+  "bacillus_alcalophilus.fasta": [
+    "bacillus alcalophilus"
+  ],
+  "bacillus_anthracis.fasta": [
+    "bacillus anthracis"
+  ],
+  "bacillus_borstelensis.fasta": [
+    "bacillus borstelensis"
+  ],
+  "bacillus_cereus.fasta": [
+    "bacillus cereus"
+  ],
+  "bacillus_clarkii.fasta": [
+    "bacillus clarkii"
+  ],
+  "bacillus_halmapalus.fasta": [
+    "bacillus halmapalus"
+  ],
+  "bacillus_licheniformis.fasta": [
+    "bacillus licheniformis"
+  ],
+  "bacillus_megaterium.fasta": [
+    "bacillus megaterium"
+  ],
+  "bacillus_psychrosaccharolyticus.fasta": [
+    "bacillus psychrosaccharolyticus"
+  ],
+  "bacillus_pumilus.fasta": [
+    "bacillus pumilus"
+  ],
+  "bacillus_sphaericus.fasta": [
+    "bacillus sphaericus"
+  ],
+  "bacillus_subtilis.fasta": [
+    "bacillus subtilis"
+  ],
+  "bacillus_thuringiensis.fasta": [
+    "bacillus thuringiensis"
+  ],
+  "bacillus_weihenstephanensis.fasta": [
+    "bacillus weihenstephanensis"
+  ],
+  "bacteroides_fragilis.fasta": [
+    "bacteroides fragilis"
+  ],
+  "bdellovibrio_bacteriovorus.fasta": [
+    "bdellovibrio bacteriovorus"
+  ],
+  "bordetella_bronchiseptica.fasta": [
+    "bordetella bronchiseptica"
+  ],
+  "brevibacillus_brevis.fasta": [
+    "brevibacillus brevis"
+  ],
+  "brevibacillus_laterosporus.fasta": [
+    "brevibacillus laterosporus"
+  ],
+  "brochothrix_thermosphacta.fasta": [
+    "brochothrix thermosphacta"
+  ],
+  "brucella_abortus.fasta": [
+    "brucella abortus"
+  ],
+  "brucella_canis.fasta": [
+    "brucella canis"
+  ],
+  "brucella_ceti.fasta": [
+    "brucella ceti"
+  ],
+  "brucella_inopinata.fasta": [
+    "brucella inopinata"
+  ],
+  "brucella_melitensis.fasta": [
+    "brucella melitensis"
+  ],
+  "brucella_microti.fasta": [
+    "brucella microti"
+  ],
+  "brucella_neotomae.fasta": [
+    "brucella neotomae"
+  ],
+  "brucella_ovis.fasta": [
+    "brucella ovis"
+  ],
+  "brucella_pinnipedialis.fasta": [
+    "brucella pinnipedialis"
+  ],
+  "brucella_suis.fasta": [
+    "brucella suis"
+  ],
+  "brucella_vulpis.fasta": [
+    "brucella vulpis"
+  ],
+  "burkholderia_ambifaria.fasta": [
+    "burkholderia ambifaria"
+  ],
+  "burkholderia_cenocepacia.fasta": [
+    "burkholderia cenocepacia"
+  ],
+  "burkholderia_cepacia.fasta": [
+    "burkholderia cepacia"
+  ],
+  "burkholderia_pseudomallei.fasta": [
+    "burkholderia pseudomallei"
+  ],
+  "burkholderia_pyrrocinia.fasta": [
+    "burkholderia pyrrocinia"
+  ],
+  "burkholderia_thailandensis.fasta": [
+    "burkholderia thailandensis"
+  ],
+  "campylobacter_coli.fasta": [
+    "campylobacter coli"
+  ],
+  "campylobacter_jejuni.fasta": [
+    "campylobacter jejuni"
+  ],
+  "caulobacter_crescentus.fasta": [
+    "caulobacter crescentus"
+  ],
+  "cellulophaga_baltica.fasta": [
+    "cellulophaga baltica"
+  ],
+  "chlamydia_psittaci.fasta": [
+    "chlamydia psittaci"
+  ],
+  "chlamydia_trachomatis.fasta": [
+    "chlamydia trachomatis"
+  ],
+  "chlamydophila_abortus.fasta": [
+    "chlamydophila abortus"
+  ],
+  "chlamydophila_pneumoniae.fasta": [
+    "chlamydophila pneumoniae"
+  ],
+  "citrobacter_freundii.fasta": [
+    "citrobacter freundii"
+  ],
+  "citrobacter_rodentium.fasta": [
+    "citrobacter rodentium"
+  ],
+  "clavibacter_michiganensis.fasta": [
+    "clavibacter michiganensis"
+  ],
+  "clostridium_botulinum.fasta": [
+    "clostridium botulinum"
+  ],
+  "clostridium_perfringens.fasta": [
+    "clostridium perfringens"
+  ],
+  "clostridium_sporogenes.fasta": [
+    "clostridium sporogenes"
+  ],
+  "clostridium_tetani.fasta": [
+    "clostridium tetani"
+  ],
+  "corynebacterium_glutamicum.fasta": [
+    "corynebacterium glutamicum"
+  ],
+  "croceibacter_atlanticus.fasta": [
+    "croceibacter atlanticus"
+  ],
+  "cronobacter_dublinensis.fasta": [
+    "cronobacter dublinensis"
+  ],
+  "cronobacter_malonaticus.fasta": [
+    "cronobacter malonaticus"
+  ],
+  "cronobacter_sakazakii.fasta": [
+    "cronobacter sakazakii"
+  ],
+  "cronobacter_turicensis.fasta": [
+    "cronobacter turicensis"
+  ],
+  "cronobacter_universalis.fasta": [
+    "cronobacter universalis"
+  ],
+  "delftia_acidovorans.fasta": [
+    "delftia acidovorans"
+  ],
+  "delftia_tsuruhatensis.fasta": [
+    "delftia tsuruhatensis"
+  ],
+  "dickeya_chrysanthemi.fasta": [
+    "dickeya chrysanthemi"
+  ],
+  "dickeya_dadantii.fasta": [
+    "dickeya dadantii"
+  ],
+  "dickeya_dianthicola.fasta": [
+    "dickeya dianthicola"
+  ],
+  "dickeya_dieffenbachiae.fasta": [
+    "dickeya dieffenbachiae"
+  ],
+  "dickeya_solani.fasta": [
+    "dickeya solani"
+  ],
+  "dickeya_zeae.fasta": [
+    "dickeya zeae"
+  ],
+  "dinoroseobacter_shibae.fasta": [
+    "dinoroseobacter shibae"
+  ],
+  "edwardsiella_ictaluri.fasta": [
+    "edwardsiella ictaluri"
+  ],
+  "enterobacter_aerogenes.fasta": [
+    "enterobacter aerogenes"
+  ],
+  "enterobacter_agglomerans.fasta": [
+    "enterobacter agglomerans"
+  ],
+  "enterobacter_cancerogenus.fasta": [
+    "enterobacter cancerogenus"
+  ],
+  "enterobacter_cloacae.fasta": [
+    "enterobacter cloacae"
+  ],
+  "enterobacter_sakazakii.fasta": [
+    "enterobacter sakazakii"
+  ],
+  "enterococcus_faecalis.fasta": [
+    "enterococcus faecalis"
+  ],
+  "enterococcus_faecium.fasta": [
+    "enterococcus faecium"
+  ],
+  "erwinia_amylovora.fasta": [
+    "erwinia amylovora"
+  ],
+  "erwinia_billingiae.fasta": [
+    "erwinia billingiae"
+  ],
+  "erwinia_persicina.fasta": [
+    "erwinia persicina"
+  ],
+  "erwinia_pyrifoliae.fasta": [
+    "erwinia pyrifoliae"
+  ],
+  "erysipelothrix_rhusiopathiae.fasta": [
+    "erysipelothrix rhusiopathiae"
+  ],
+  "erythrobacter_litoralis.fasta": [
+    "erythrobacter litoralis"
+  ],
+  "erythrobacter_longus.fasta": [
+    "erythrobacter longus"
+  ],
+  "escherichia_coli.fasta": [
+    "escherichia coli"
+  ],
+  "flavobacterium_columnare.fasta": [
+    "flavobacterium columnare"
+  ],
+  "flavobacterium_psychrophilum.fasta": [
+    "flavobacterium psychrophilum"
+  ],
+  "fusobacterium_nucleatum.fasta": [
+    "fusobacterium nucleatum"
+  ],
+  "geobacillus_kaustophilus.fasta": [
+    "geobacillus kaustophilus"
+  ],
+  "gluconobacter_oxydans.fasta": [
+    "gluconobacter oxydans"
+  ],
+  "gordonia_alkanivorans.fasta": [
+    "gordonia alkanivorans"
+  ],
+  "gordonia_malaquae.fasta": [
+    "gordonia malaquae"
+  ],
+  "gordonia_neofelifaecis.fasta": [
+    "gordonia neofelifaecis"
+  ],
+  "gordonia_sputi.fasta": [
+    "gordonia sputi"
+  ],
+  "gordonia_terrae.fasta": [
+    "gordonia terrae"
+  ],
+  "haemophilus_influenzae.fasta": [
+    "haemophilus influenzae"
+  ],
+  "haemophilus_parasuis.fasta": [
+    "haemophilus parasuis"
+  ],
+  "halomonas_aquamarina.fasta": [
+    "halomonas aquamarina"
+  ],
+  "helicobacter_pylori.fasta": [
+    "helicobacter pylori"
+  ],
+  "idiomarina_fontislapidosi.fasta": [
+    "idiomarina fontislapidosi"
+  ],
+  "idiomarina_loihiensis.fasta": [
+    "idiomarina loihiensis"
+  ],
+  "janthinobacterium_lividum.fasta": [
+    "janthinobacterium lividum"
+  ],
+  "klebsiella_oxytoca.fasta": [
+    "klebsiella oxytoca"
+  ],
+  "klebsiella_pneumoniae.fasta": [
+    "klebsiella pneumoniae"
+  ],
+  "kocuria_rosea.fasta": [
+    "kocuria rosea"
+  ],
+  "lactobacillus_brevis.fasta": [
+    "lactobacillus brevis"
+  ],
+  "lactobacillus_casei.fasta": [
+    "lactobacillus casei"
+  ],
+  "lactobacillus_coryniformis.fasta": [
+    "lactobacillus coryniformis"
+  ],
+  "lactobacillus_crispatus.fasta": [
+    "lactobacillus crispatus"
+  ],
+  "lactobacillus_curvatus.fasta": [
+    "lactobacillus curvatus"
+  ],
+  "lactobacillus_delbrueckii.fasta": [
+    "lactobacillus delbrueckii"
+  ],
+  "lactobacillus_fermentum.fasta": [
+    "lactobacillus fermentum"
+  ],
+  "lactobacillus_fructivorans.fasta": [
+    "lactobacillus fructivorans"
+  ],
+  "lactobacillus_fructosus.fasta": [
+    "lactobacillus fructosus"
+  ],
+  "lactobacillus_gasseri.fasta": [
+    "lactobacillus gasseri"
+  ],
+  "lactobacillus_jensenii.fasta": [
+    "lactobacillus jensenii"
+  ],
+  "lactobacillus_johnsonii.fasta": [
+    "lactobacillus johnsonii"
+  ],
+  "lactobacillus_mali.fasta": [
+    "lactobacillus mali"
+  ],
+  "lactobacillus_paracasei.fasta": [
+    "lactobacillus paracasei"
+  ],
+  "lactobacillus_paraplantarum.fasta": [
+    "lactobacillus paraplantarum"
+  ],
+  "lactobacillus_reuteri.fasta": [
+    "lactobacillus reuteri"
+  ],
+  "lactobacillus_rhamnosus.fasta": [
+    "lactobacillus rhamnosus"
+  ],
+  "lactobacillus_salivarius.fasta": [
+    "lactobacillus salivarius"
+  ],
+  "lactococcus_garvieae.fasta": [
+    "lactococcus garvieae"
+  ],
+  "lactococcus_lactis.fasta": [
+    "lactococcus lactis"
+  ],
+  "leptolyngbya_foveolarum.fasta": [
+    "leptolyngbya foveolarum"
+  ],
+  "leuconostoc_fallax.fasta": [
+    "leuconostoc fallax"
+  ],
+  "leuconostoc_lactis.fasta": [
+    "leuconostoc lactis"
+  ],
+  "leuconostoc_mesenteroides.fasta": [
+    "leuconostoc mesenteroides"
+  ],
+  "leuconostoc_paramesenteroides.fasta": [
+    "leuconostoc paramesenteroides"
+  ],
+  "leuconostoc_pseudomesenteroides.fasta": [
+    "leuconostoc pseudomesenteroides"
+  ],
+  "listeria_innocua.fasta": [
+    "listeria innocua"
+  ],
+  "listeria_ivanovii.fasta": [
+    "listeria ivanovii"
+  ],
+  "listeria_monocytogenes.fasta": [
+    "listeria monocytogenes"
+  ],
+  "mannheimia_haemolytica.fasta": [
+    "mannheimia haemolytica"
+  ],
+  "mesorhizobium_loti.fasta": [
+    "mesorhizobium loti"
+  ],
+  "microbacterium_oxydans.fasta": [
+    "microbacterium oxydans"
+  ],
+  "microcystis_aeruginosa.fasta": [
+    "microcystis aeruginosa"
+  ],
+  "morganella_morganii.fasta": [
+    "morganella morganii"
+  ],
+  "mycobacterium_abscessus.fasta": [
+    "mycobacterium abscessus"
+  ],
+  "mycobacterium_avium.fasta": [
+    "mycobacterium avium"
+  ],
+  "mycobacterium_phlei.fasta": [
+    "mycobacterium phlei"
+  ],
+  "mycobacterium_tuberculosis.fasta": [
+    "mycobacterium tuberculosis"
+  ],
+  "myxococcus_xanthus.fasta": [
+    "myxococcus xanthus"
+  ],
+  "natrialba_magadii.fasta": [
+    "natrialba magadii"
+  ],
+  "nocardia_brasiliensis.fasta": [
+    "nocardia brasiliensis"
+  ],
+  "nocardia_otitidiscaviarum.fasta": [
+    "nocardia otitidiscaviarum"
+  ],
+  "nostoc_linckia.fasta": [
+    "nostoc linckia"
+  ],
+  "paenibacillus_alvei.fasta": [
+    "paenibacillus alvei"
+  ],
+  "paenibacillus_amylolyticus.fasta": [
+    "paenibacillus amylolyticus"
+  ],
+  "paenibacillus_apiarius.fasta": [
+    "paenibacillus apiarius"
+  ],
+  "paenibacillus_castaneae.fasta": [
+    "paenibacillus castaneae"
+  ],
+  "paenibacillus_elgii.fasta": [
+    "paenibacillus elgii"
+  ],
+  "paenibacillus_fonticola.fasta": [
+    "paenibacillus fonticola"
+  ],
+  "paenibacillus_glucanolyticus.fasta": [
+    "paenibacillus glucanolyticus"
+  ],
+  "paenibacillus_humicus.fasta": [
+    "paenibacillus humicus"
+  ],
+  "paenibacillus_lactis.fasta": [
+    "paenibacillus lactis"
+  ],
+  "paenibacillus_larvae.fasta": [
+    "paenibacillus larvae"
+  ],
+  "paenibacillus_lautus.fasta": [
+    "paenibacillus lautus"
+  ],
+  "paenibacillus_nanensis.fasta": [
+    "paenibacillus nanensis"
+  ],
+  "paenibacillus_pabuli.fasta": [
+    "paenibacillus pabuli"
+  ],
+  "paenibacillus_peoriae.fasta": [
+    "paenibacillus peoriae"
+  ],
+  "paenibacillus_polymyxa.fasta": [
+    "paenibacillus polymyxa"
+  ],
+  "paenibacillus_popilliae.fasta": [
+    "paenibacillus popilliae"
+  ],
+  "pantoea_agglomerans.fasta": [
+    "pantoea agglomerans"
+  ],
+  "pantoea_ananatis.fasta": [
+    "pantoea ananatis"
+  ],
+  "parabacteroides_distasonis.fasta": [
+    "parabacteroides distasonis"
+  ],
+  "parabacteroides_merdae.fasta": [
+    "parabacteroides merdae"
+  ],
+  "paracoccus_denitrificans.fasta": [
+    "paracoccus denitrificans"
+  ],
+  "paracoccus_marcusii.fasta": [
+    "paracoccus marcusii"
+  ],
+  "pasteurella_multocida.fasta": [
+    "pasteurella multocida"
+  ],
+  "pectobacterium_atrosepticum.fasta": [
+    "pectobacterium atrosepticum"
+  ],
+  "pectobacterium_carotovorum.fasta": [
+    "pectobacterium carotovorum"
+  ],
+  "pediococcus_pentosaceus.fasta": [
+    "pediococcus pentosaceus"
+  ],
+  "pedobacter_africanus.fasta": [
+    "pedobacter africanus"
+  ],
+  "phormidium_foveolarum.fasta": [
+    "phormidium foveolarum"
+  ],
+  "photobacterium_damselae.fasta": [
+    "photobacterium damselae"
+  ],
+  "planomicrobium_okeanokoites.fasta": [
+    "planomicrobium okeanokoites"
+  ],
+  "porphyromonas_gingivalis.fasta": [
+    "porphyromonas gingivalis"
+  ],
+  "prochlorococcus_marinus.fasta": [
+    "prochlorococcus marinus"
+  ],
+  "propionibacterium_acnes.fasta": [
+    "propionibacterium acnes"
+  ],
+  "propionibacterium_freudenreichii.fasta": [
+    "propionibacterium freudenreichii"
+  ],
+  "proteus_mirabilis.fasta": [
+    "proteus mirabilis"
+  ],
+  "proteus_vulgaris.fasta": [
+    "proteus vulgaris"
+  ],
+  "providencia_stuartii.fasta": [
+    "providencia stuartii"
+  ],
+  "pseudoalteromonas_arctica.fasta": [
+    "pseudoalteromonas arctica"
+  ],
+  "pseudoalteromonas_atlantica.fasta": [
+    "pseudoalteromonas atlantica"
+  ],
+  "pseudoalteromonas_marina.fasta": [
+    "pseudoalteromonas marina"
+  ],
+  "pseudoalteromonas_nigrifaciens.fasta": [
+    "pseudoalteromonas nigrifaciens"
+  ],
+  "pseudoalteromonas_phenolica.fasta": [
+    "pseudoalteromonas phenolica"
+  ],
+  "pseudoalteromonas_translucida.fasta": [
+    "pseudoalteromonas translucida"
+  ],
+  "pseudomonas_aeruginosa.fasta": [
+    "pseudomonas aeruginosa"
+  ],
+  "pseudomonas_agarici.fasta": [
+    "pseudomonas agarici"
+  ],
+  "pseudomonas_chlororaphis.fasta": [
+    "pseudomonas chlororaphis"
+  ],
+  "pseudomonas_cichorii.fasta": [
+    "pseudomonas cichorii"
+  ],
+  "pseudomonas_costantinii.fasta": [
+    "pseudomonas costantinii"
+  ],
+  "pseudomonas_fluorescens.fasta": [
+    "pseudomonas fluorescens"
+  ],
+  "pseudomonas_gingeri.fasta": [
+    "pseudomonas gingeri"
+  ],
+  "pseudomonas_poae.fasta": [
+    "pseudomonas poae"
+  ],
+  "pseudomonas_putida.fasta": [
+    "pseudomonas putida"
+  ],
+  "pseudomonas_putrefaciens.fasta": [
+    "pseudomonas putrefaciens"
+  ],
+  "pseudomonas_rhizosphaerae.fasta": [
+    "pseudomonas rhizosphaerae"
+  ],
+  "pseudomonas_segetis.fasta": [
+    "pseudomonas segetis"
+  ],
+  "pseudomonas_syringae.fasta": [
+    "pseudomonas syringae"
+  ],
+  "pseudomonas_taetrolens.fasta": [
+    "pseudomonas taetrolens"
+  ],
+  "pseudomonas_tolaasii.fasta": [
+    "pseudomonas tolaasii"
+  ],
+  "ralstonia_pickettii.fasta": [
+    "ralstonia pickettii"
+  ],
+  "ralstonia_solanacearum.fasta": [
+    "ralstonia solanacearum"
+  ],
+  "raoultella_ornithinolytica.fasta": [
+    "raoultella ornithinolytica"
+  ],
+  "rhizobium_etli.fasta": [
+    "rhizobium etli"
+  ],
+  "rhizobium_gallicum.fasta": [
+    "rhizobium gallicum"
+  ],
+  "rhizobium_leguminosarum.fasta": [
+    "rhizobium leguminosarum"
+  ],
+  "rhizobium_leucaenae.fasta": [
+    "rhizobium leucaenae"
+  ],
+  "rhizobium_radiobacter.fasta": [
+    "rhizobium radiobacter"
+  ],
+  "rhodobacter_capsulatus.fasta": [
+    "rhodobacter capsulatus"
+  ],
+  "rhodobacter_sphaeroides.fasta": [
+    "rhodobacter sphaeroides"
+  ],
+  "rhodococcus_erythropolis.fasta": [
+    "rhodococcus erythropolis"
+  ],
+  "rhodococcus_globerulus.fasta": [
+    "rhodococcus globerulus"
+  ],
+  "rhodococcus_opacus.fasta": [
+    "rhodococcus opacus"
+  ],
+  "rhodococcus_rhodochrous.fasta": [
+    "rhodococcus rhodochrous"
+  ],
+  "rhodococcus_ruber.fasta": [
+    "rhodococcus ruber"
+  ],
+  "rhodopseudomonas_palustris.fasta": [
+    "rhodopseudomonas palustris"
+  ],
+  "rhodospirillum_centenum.fasta": [
+    "rhodospirillum centenum"
+  ],
+  "rhodothermus_marinus.fasta": [
+    "rhodothermus marinus"
+  ],
+  "riemerella_anatipestifer.fasta": [
+    "riemerella anatipestifer"
+  ],
+  "roseobacter_denitrificans.fasta": [
+    "roseobacter denitrificans"
+  ],
+  "roseobacter_litoralis.fasta": [
+    "roseobacter litoralis"
+  ],
+  "ruegeria_pomeroyi.fasta": [
+    "ruegeria pomeroyi"
+  ],
+  "saccharibacter_floricola.fasta": [
+    "saccharibacter floricola"
+  ],
+  "salinivibrio_costicola.fasta": [
+    "salinivibrio costicola"
+  ],
+  "salmonella_enterica.fasta": [
+    "salmonella enterica"
+  ],
+  "salmonella_enteritidis.fasta": [
+    "salmonella enteritidis"
+  ],
+  "salmonella_gallinarum.fasta": [
+    "salmonella gallinarum"
+  ],
+  "salmonella_paratyphi.fasta": [
+    "salmonella paratyphi"
+  ],
+  "salmonella_typhi.fasta": [
+    "salmonella typhi"
+  ],
+  "salmonella_typhimurium.fasta": [
+    "salmonella typhimurium"
+  ],
+  "serratia_marcescens.fasta": [
+    "serratia marcescens"
+  ],
+  "shewanella_putrefaciens.fasta": [
+    "shewanella putrefaciens"
+  ],
+  "shigella_boydii.fasta": [
+    "shigella boydii"
+  ],
+  "shigella_flexneri.fasta": [
+    "shigella flexneri"
+  ],
+  "shigella_sonnei.fasta": [
+    "shigella sonnei"
+  ],
+  "sinorhizobium_meliloti.fasta": [
+    "sinorhizobium meliloti"
+  ],
+  "sodalis_glossinidius.fasta": [
+    "sodalis glossinidius"
+  ],
+  "sphingomonas_paucimobilis.fasta": [
+    "sphingomonas paucimobilis"
+  ],
+  "spiroplasma_citri.fasta": [
+    "spiroplasma citri"
+  ],
+  "spiroplasma_melliferum.fasta": [
+    "spiroplasma melliferum"
+  ],
+  "staphylococcus_aureus.fasta": [
+    "staphylococcus aureus"
+  ],
+  "staphylococcus_capitis.fasta": [
+    "staphylococcus capitis"
+  ],
+  "staphylococcus_carnosus.fasta": [
+    "staphylococcus carnosus"
+  ],
+  "staphylococcus_cohnii.fasta": [
+    "staphylococcus cohnii"
+  ],
+  "staphylococcus_epidermidis.fasta": [
+    "staphylococcus epidermidis"
+  ],
+  "staphylococcus_haemolyticus.fasta": [
+    "staphylococcus haemolyticus"
+  ],
+  "staphylococcus_hominis.fasta": [
+    "staphylococcus hominis"
+  ],
+  "staphylococcus_intermedius.fasta": [
+    "staphylococcus intermedius"
+  ],
+  "staphylococcus_pasteuri.fasta": [
+    "staphylococcus pasteuri"
+  ],
+  "staphylococcus_saprophyticus.fasta": [
+    "staphylococcus saprophyticus"
+  ],
+  "staphylococcus_simulans.fasta": [
+    "staphylococcus simulans"
+  ],
+  "staphylococcus_warneri.fasta": [
+    "staphylococcus warneri"
+  ],
+  "staphylococcus_xylosus.fasta": [
+    "staphylococcus xylosus"
+  ],
+  "streptococcus_dysgalactiae.fasta": [
+    "streptococcus dysgalactiae"
+  ],
+  "streptococcus_equi.fasta": [
+    "streptococcus equi"
+  ],
+  "streptococcus_gordonii.fasta": [
+    "streptococcus gordonii"
+  ],
+  "streptococcus_mitis.fasta": [
+    "streptococcus mitis"
+  ],
+  "streptococcus_mutans.fasta": [
+    "streptococcus mutans"
+  ],
+  "streptococcus_oralis.fasta": [
+    "streptococcus oralis"
+  ],
+  "streptococcus_parauberis.fasta": [
+    "streptococcus parauberis"
+  ],
+  "streptococcus_pyogenes.fasta": [
+    "streptococcus pyogenes"
+  ],
+  "streptococcus_salivarius.fasta": [
+    "streptococcus salivarius"
+  ],
+  "streptococcus_sobrinus.fasta": [
+    "streptococcus sobrinus"
+  ],
+  "streptococcus_suis.fasta": [
+    "streptococcus suis"
+  ],
+  "streptococcus_thermophilus.fasta": [
+    "streptococcus thermophilus"
+  ],
+  "streptococcus_zooepidemicus.fasta": [
+    "streptococcus zooepidemicus"
+  ],
+  "streptomyces_avermitilis.fasta": [
+    "streptomyces avermitilis"
+  ],
+  "streptomyces_coelicolor.fasta": [
+    "streptomyces coelicolor"
+  ],
+  "streptomyces_exfoliatus.fasta": [
+    "streptomyces exfoliatus"
+  ],
+  "streptomyces_flavovirens.fasta": [
+    "streptomyces flavovirens"
+  ],
+  "streptomyces_griseus.fasta": [
+    "streptomyces griseus"
+  ],
+  "streptomyces_lividans.fasta": [
+    "streptomyces lividans"
+  ],
+  "streptomyces_venezuelae.fasta": [
+    "streptomyces venezuelae"
+  ],
+  "thermus_thermophilus.fasta": [
+    "thermus thermophilus"
+  ],
+  "tsukamurella_paurometabola.fasta": [
+    "tsukamurella paurometabola"
+  ],
+  "vibrio_alginolyticus.fasta": [
+    "vibrio alginolyticus"
+  ],
+  "vibrio_anguillarum.fasta": [
+    "vibrio anguillarum"
+  ],
+  "vibrio_cholerae.fasta": [
+    "vibrio cholerae"
+  ],
+  "vibrio_fischeri.fasta": [
+    "vibrio fischeri"
+  ],
+  "vibrio_fluvialis.fasta": [
+    "vibrio fluvialis"
+  ],
+  "vibrio_furnissii.fasta": [
+    "vibrio furnissii"
+  ],
+  "vibrio_harveyi.fasta": [
+    "vibrio harveyi"
+  ],
+  "vibrio_metschnikovii.fasta": [
+    "vibrio metschnikovii"
+  ],
+  "vibrio_mimicus.fasta": [
+    "vibrio mimicus"
+  ],
+  "vibrio_natriegens.fasta": [
+    "vibrio natriegens"
+  ],
+  "vibrio_parahaemolyticus.fasta": [
+    "vibrio parahaemolyticus"
+  ],
+  "vibrio_splendidus.fasta": [
+    "vibrio splendidus"
+  ],
+  "vibrio_vulnificus.fasta": [
+    "vibrio vulnificus"
+  ],
+  "weissella_cibaria.fasta": [
+    "weissella cibaria"
+  ],
+  "xanthomonas_campestris.fasta": [
+    "xanthomonas campestris"
+  ],
+  "xanthomonas_citri.fasta": [
+    "xanthomonas citri"
+  ],
+  "xanthomonas_oryzae.fasta": [
+    "xanthomonas oryzae"
+  ],
+  "xanthomonas_vesicatoria.fasta": [
+    "xanthomonas vesicatoria"
+  ],
+  "xylella_fastidiosa.fasta": [
+    "xylella fastidiosa"
+  ],
+  "yersinia_aldovae.fasta": [
+    "yersinia aldovae"
+  ],
+  "yersinia_bercovieri.fasta": [
+    "yersinia bercovieri"
+  ],
+  "yersinia_enterocolitica.fasta": [
+    "yersinia enterocolitica"
+  ],
+  "yersinia_frederiksenii.fasta": [
+    "yersinia frederiksenii"
+  ],
+  "yersinia_intermedia.fasta": [
+    "yersinia intermedia"
+  ],
+  "yersinia_kristensenii.fasta": [
+    "yersinia kristensenii"
+  ],
+  "yersinia_pestis.fasta": [
+    "yersinia pestis"
+  ],
+  "yersinia_pseudotuberculosis.fasta": [
+    "yersinia pseudotuberculosis"
+  ],
+  "yersinia_rohdei.fasta": [
+    "yersinia rohdei"
+  ],
+  "yersinia_ruckeri.fasta": [
+    "yersinia ruckeri"
+  ]
+}

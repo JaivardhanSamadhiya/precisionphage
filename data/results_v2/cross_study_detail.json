@@ -1,0 +1,71 @@
+{
+  "features": [
+    "k3dist",
+    "k6dist",
+    "GCdiff",
+    "Homology"
+  ],
+  "interpretation": "Leave-one-study-out audit of the four features available across all sources; not a cross-source test of the 24-feature sequence model.",
+  "rows": [
+    {
+      "held_out_source": "NCBI_HR",
+      "model": "GBM",
+      "n_pairs": 2588,
+      "n_positive": 2119,
+      "positive_fraction": 0.8187789916992188,
+      "auroc": 0.4722542817497492,
+      "auprc": 0.8005706025795182,
+      "ece": 0.7768989185639644
+    },
+    {
+      "held_out_source": "NahantCollection",
+      "model": "GBM",
+      "n_pairs": 5208,
+      "n_positive": 318,
+      "positive_fraction": 0.06105990707874298,
+      "auroc": 0.4193926766215225,
+      "auprc": 0.05807341410074909,
+      "ece": 0.61267238013917
+    },
+    {
+      "held_out_source": "StaphStudy",
+      "model": "GBM",
+      "n_pairs": 1053,
+      "n_positive": 333,
+      "positive_fraction": 0.3162393271923065,
+      "auroc": 0.5676676676676676,
+      "auprc": 0.34503737075691093,
+      "ece": 0.12635745275464946
+    },
+    {
+      "held_out_source": "NCBI_HR",
+      "model": "EdgeMLP",
+      "n_pairs": 2588,
+      "n_positive": 2119,
+      "positive_fraction": 0.8187789916992188,
+      "auroc": 0.6933431004486769,
+      "auprc": 0.8646735518999068,
+      "ece": 0.4831652877359966
+    },
+    {
+      "held_out_source": "NahantCollection",
+      "model": "EdgeMLP",
+      "n_pairs": 5208,
+      "n_positive": 318,
+      "positive_fraction": 0.06105990707874298,
+      "auroc": 0.5603053336934574,
+      "auprc": 0.07001700125721365,
+      "ece": 0.4819532170621378
+    },
+    {
+      "held_out_source": "StaphStudy",
+      "model": "EdgeMLP",
+      "n_pairs": 1053,
+      "n_positive": 333,
+      "positive_fraction": 0.3162393271923065,
+      "auroc": 0.5696363029696363,
+      "auprc": 0.338527417527297,
+      "ece": 0.41142562781756875
+    }
+  ]
+}

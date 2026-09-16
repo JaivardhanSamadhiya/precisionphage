@@ -1,0 +1,69 @@
+{
+  "status": "predictions_frozen_before_external_outcome_read",
+  "n_train_hosts": 402,
+  "n_test_hosts": 100,
+  "n_phages": 96,
+  "training_positive_fraction": 0.20751918823988552,
+  "distance_groups": 302,
+  "test_hosts_without_distance_row": [
+    "LM01",
+    "NAN46",
+    "RY11"
+  ],
+  "selected": {
+    "logistic_C": 1.0,
+    "knn_k": 20
+  },
+  "development_cv": {
+    "logistic": {
+      "0.1": {
+        "macro_average_precision": 0.4882191074415612,
+        "macro_roc_auc": 0.7323426687677332,
+        "n_evaluable_fold_phages": 877
+      },
+      "1.0": {
+        "macro_average_precision": 0.48969293798693436,
+        "macro_roc_auc": 0.7320467170122393,
+        "n_evaluable_fold_phages": 877
+      },
+      "10.0": {
+        "macro_average_precision": 0.4697448472626355,
+        "macro_roc_auc": 0.7159683479744153,
+        "n_evaluable_fold_phages": 877
+      }
+    },
+    "knn": {
+      "5": {
+        "macro_average_precision": 0.43342425373470145,
+        "macro_roc_auc": 0.6652355955790317,
+        "n_evaluable_fold_phages": 877
+      },
+      "10": {
+        "macro_average_precision": 0.45610309174267194,
+        "macro_roc_auc": 0.685120399730606,
+        "n_evaluable_fold_phages": 877
+      },
+      "20": {
+        "macro_average_precision": 0.47729185125262186,
+        "macro_roc_auc": 0.7020291225059032,
+        "n_evaluable_fold_phages": 877
+      },
+      "40": {
+        "macro_average_precision": 0.4753828030417044,
+        "macro_roc_auc": 0.7030300593555969,
+        "n_evaluable_fold_phages": 877
+      }
+    }
+  },
+  "checksums": {
+    "protocol": "75befc77221567644f70bb23d0264466e9d634fe14200e80b3efdc80b9b8b15d",
+    "script": "679bf7759e333aeb710a6c80229a96ecab9c2c9a07fbccc10a5befa1f25ee50f",
+    "interactions": "ec0aa5553a726e2161ea15d687a677ee2ed623873fb2a897432d0777582ad829",
+    "train_metadata": "e880b60cdc3df6f000b2f0e74985415bd11737d474ab68dd35d0085940cf5b13",
+    "test_metadata": "fe2cae9992f6932906cd41ef80164c959153722ac098e01a983abcc78198e3b5",
+    "distances": "37ba758a5bb6b2806604652cff1f064b997675322bd707f9937329c46d360e3b",
+    "phage_metadata": "c21c2672452609f749b9a6eba3135d1bb814abd8e69e9293971f759711b4f276",
+    "frozen_pair_predictions": "876c97d91b64158b9bda4a6df15cd510f2b1753da80c031a261570247932ef6d",
+    "development_grouped_cv": "daea10c1c35f5ce1ba40d7cf06917f3e098c6ef4ea62a567a97453e3d46e30ee"
+  }
+}

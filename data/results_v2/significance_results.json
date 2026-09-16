@@ -1,0 +1,155 @@
+{
+  "inference_note": "Exploratory independent-row inference; observations share phage and host entities, so p-values and intervals are not confirmatory.",
+  "skill_vs_chance": [
+    {
+      "regime": "loso_species",
+      "model": "GBM",
+      "auc": 0.9585914302007748,
+      "auc_lo": 0.944304231058668,
+      "auc_hi": 0.9728786293428815,
+      "ece": 0.020879906363205542,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "loso_species",
+      "model": "GNN",
+      "auc": 0.8690686881796554,
+      "auc_lo": 0.8387782309916505,
+      "auc_hi": 0.8993591453676604,
+      "ece": 0.10687679977426508,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "host_cluster",
+      "model": "GBM",
+      "auc": 0.9504766949152543,
+      "auc_lo": 0.9344718534195419,
+      "auc_hi": 0.9664815364109668,
+      "ece": 0.0545917792660408,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "host_cluster",
+      "model": "GNN",
+      "auc": 0.8534872503026634,
+      "auc_lo": 0.8224233977992487,
+      "auc_hi": 0.8845511028060781,
+      "ece": 0.1175996785545982,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "phage_cluster",
+      "model": "GBM",
+      "auc": 0.8470579625292742,
+      "auc_lo": 0.8081065904575222,
+      "auc_hi": 0.8860093346010263,
+      "ece": 0.4272722473397153,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "phage_cluster",
+      "model": "GNN",
+      "auc": 0.751844262295082,
+      "auc_lo": 0.7022420141633889,
+      "auc_hi": 0.8014465104267752,
+      "ece": 0.4415421559087022,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "combined_unseen",
+      "model": "GBM",
+      "auc": 0.7852237048665618,
+      "auc_lo": 0.7355067779992742,
+      "auc_hi": 0.8349406317338494,
+      "ece": 0.1628954088006487,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    },
+    {
+      "regime": "combined_unseen",
+      "model": "GNN",
+      "auc": 0.6724391679748822,
+      "auc_lo": 0.6126890814705048,
+      "auc_hi": 0.7321892544792596,
+      "ece": 0.06967626950099838,
+      "perm_p": 0.000999000999000999,
+      "perm_q_bh": 0.000999000999000999,
+      "above_chance_fdr05": true
+    }
+  ],
+  "model_comparison": [
+    {
+      "regime": "loso_species",
+      "auc_gbm": 0.9585914302007748,
+      "auc_gnn": 0.8690686881796554,
+      "auc_diff": 0.08952274202111932,
+      "diff_lo": 0.0642334069999387,
+      "diff_hi": 0.11574698379170921,
+      "delong_z": 6.816752545744368,
+      "delong_p": 9.31214583893605e-12,
+      "mcnemar_b": 81,
+      "mcnemar_c": 33,
+      "mcnemar_p": 1.072806443387001e-05,
+      "delong_q_bh": 1.86242916778721e-11,
+      "gbm_beats_gnn_fdr05": true
+    },
+    {
+      "regime": "host_cluster",
+      "auc_gbm": 0.9504766949152543,
+      "auc_gnn": 0.8534872503026634,
+      "auc_diff": 0.09698944461259096,
+      "diff_lo": 0.07137078193217547,
+      "diff_hi": 0.12393396378902057,
+      "delong_z": 7.112470368322165,
+      "delong_p": 1.1398401398231893e-12,
+      "mcnemar_b": 102,
+      "mcnemar_c": 62,
+      "mcnemar_p": 0.002323800346301248,
+      "delong_q_bh": 4.559360559292757e-12,
+      "gbm_beats_gnn_fdr05": true
+    },
+    {
+      "regime": "phage_cluster",
+      "auc_gbm": 0.8470579625292742,
+      "auc_gnn": 0.751844262295082,
+      "auc_diff": 0.09521370023419218,
+      "diff_lo": 0.04688955284421266,
+      "diff_hi": 0.1441196393368849,
+      "delong_z": 3.818687333635473,
+      "delong_p": 0.00013416368097161752,
+      "mcnemar_b": 58,
+      "mcnemar_c": 34,
+      "mcnemar_p": 0.016488656727670158,
+      "delong_q_bh": 0.0001788849079621567,
+      "gbm_beats_gnn_fdr05": true
+    },
+    {
+      "regime": "combined_unseen",
+      "auc_gbm": 0.7852237048665618,
+      "auc_gnn": 0.6724391679748822,
+      "auc_diff": 0.11278453689167955,
+      "diff_lo": 0.04834313721597039,
+      "diff_hi": 0.17635426864323625,
+      "delong_z": 3.4609172610549392,
+      "delong_p": 0.0005383382402730661,
+      "mcnemar_b": 28,
+      "mcnemar_c": 16,
+      "mcnemar_p": 0.09725442843900337,
+      "delong_q_bh": 0.0005383382402730661,
+      "gbm_beats_gnn_fdr05": true
+    }
+  ]
+}

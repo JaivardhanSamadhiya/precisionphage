@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "pairs": 1053,
+  "pair_keys_sha256": "0d1b3b8bb8f43d810fee9e0f2465c8ac97994a03be666ebc6bf6e2f7e50ced1e",
+  "phage_bundle_sha256": "ded663c5252ba26880df5239cf1ea19300ef7c9eaf08222ce2982a7a9640b81d",
+  "host_bundle_sha256": "5e4099e7f15a933e84ee71ba441d388aa3d4fe338af97ec686bc127442f7f397",
+  "feature_columns": [
+    "hom16_frac_kmers",
+    "hom16_cov_frac",
+    "hom16_log_shared",
+    "hom16_longest_frac",
+    "hom20_frac_kmers",
+    "hom20_cov_frac",
+    "hom20_log_shared",
+    "hom20_longest_frac",
+    "crispr_n_spacers",
+    "crispr_n_hits",
+    "crispr_best_frac",
+    "crispr_has_hit",
+    "prot_frac_kmers",
+    "prot_cov_frac",
+    "prot_log_shared",
+    "prot_longest_frac"
+  ],
+  "feature_config": {
+    "homology_ks": [
+      16,
+      20
+    ],
+    "crispr_repeat_k": 23,
+    "crispr_match_k": 20,
+    "use_protein_features": true,
+    "protein_k": 7,
+    "protein_min_pep": 90
+  }
+}

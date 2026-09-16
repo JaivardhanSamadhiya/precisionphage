@@ -1,0 +1,341 @@
+{
+  "protocol": "EXTERNAL_VALIDATION_PROTOCOL.md",
+  "dataset": {
+    "train_source": "NCBI_HR",
+    "test_source": "StaphStudy",
+    "n_train": 1947,
+    "n_train_positive": 1488,
+    "n_train_negative": 459,
+    "n_test": 1053,
+    "n_test_positive": 333,
+    "n_test_negative": 720,
+    "n_test_phages": 39,
+    "n_test_hosts": 27
+  },
+  "feature_schema": {
+    "total_columns": 448,
+    "node_columns": 424,
+    "edge_columns": 24,
+    "edge_column_names": [
+      "cos_dist",
+      "l1",
+      "pearson",
+      "jaccard",
+      "k3dist",
+      "k6dist",
+      "GCdiff",
+      "Homology",
+      "hom16_frac_kmers",
+      "hom16_cov_frac",
+      "hom16_log_shared",
+      "hom16_longest_frac",
+      "hom20_frac_kmers",
+      "hom20_cov_frac",
+      "hom20_log_shared",
+      "hom20_longest_frac",
+      "crispr_n_spacers",
+      "crispr_n_hits",
+      "crispr_best_frac",
+      "crispr_has_hit",
+      "prot_frac_kmers",
+      "prot_cov_frac",
+      "prot_log_shared",
+      "prot_longest_frac"
+    ],
+    "full_model_includes_vhip_supplied_columns": [
+      "k3dist",
+      "k6dist",
+      "GCdiff",
+      "Homology"
+    ]
+  },
+  "overlap_audit": {
+    "phage_identifier_overlap": 0,
+    "host_identifier_overlap": 10,
+    "exact_sequence_overlap": {
+      "phage": 0,
+      "host": 0
+    },
+    "mash_form_threshold": 0.05,
+    "phages_at_or_below_threshold": 4,
+    "hosts_at_or_below_threshold": 4,
+    "phage_nearest_distance": {
+      "pg-2021 1": 0.1657733375874139,
+      "pg-2021 10": 0.06442125843106432,
+      "pg-2021 12": 0.23123470973025118,
+      "pg-2021 14": 1.0,
+      "pg-2021 15": 0.23123470973025118,
+      "pg-2021 16": 0.07162273317982258,
+      "pg-2021 17": 0.06667084205962984,
+      "pg-2021 18": 0.0655289293244237,
+      "pg-2021 19": 0.0877824514177322,
+      "pg-2021 2": 0.0623015628404847,
+      "pg-2021 22": 1.0,
+      "pg-2021 23": 1.0,
+      "pg-2021 27": 1.0,
+      "pg-2021 29": 0.07032247362314317,
+      "pg-2021 31": 0.19841262970484413,
+      "pg-2021 33": 0.23123470973025118,
+      "pg-2021 35": 0.06334602522143944,
+      "pg-2021 38": 0.06128632816849745,
+      "pg-2021 4": 1.0,
+      "pg-2021 40": 0.23123470973025118,
+      "pg-2021 41": 1.0,
+      "pg-2021 43": 0.23123470973025118,
+      "pg-2021 46": 0.04189583444151167,
+      "pg-2021 47": 0.05933791795891328,
+      "pg-2021 5": 1.0,
+      "pg-2021 64": 0.07032247362314317,
+      "pg-2021 67": 1.0,
+      "pg-2021 68": 1.0,
+      "pg-2021 74": 0.04189583444151167,
+      "pg-2021 76": 0.19841262970484413,
+      "pg-2021 8": 0.06906539132401968,
+      "pg-2021 84": 0.07887918338471253,
+      "pg-2021 86": 0.07032247362314317,
+      "pg-2021 87": 0.08050777868365173,
+      "pg-2021 88": 0.041337553812203685,
+      "pg-2021 89": 0.031512422225679744,
+      "pg-2021 9": 0.0877824514177322,
+      "pg-2021 90": 0.19841262970484413,
+      "pg-2021 93": 0.23123470973025118
+    },
+    "host_nearest_distance": {
+      "staphylococcus arlettae": 0.19841262970484413,
+      "staphylococcus aureus": 0.07887918338471253,
+      "staphylococcus auricularis": 0.23123470973025118,
+      "staphylococcus capitis": 0.1657733375874139,
+      "staphylococcus caprae": 0.1657733375874139,
+      "staphylococcus chromogenes": 0.17928898059388013,
+      "staphylococcus cohnii": 0.15533025306326895,
+      "staphylococcus epidermidis": 0.0877824514177322,
+      "staphylococcus equorum": 0.1468303739987189,
+      "staphylococcus fleuretti": 0.19841262970484413,
+      "staphylococcus haemolyticus": 0.006781920954369934,
+      "staphylococcus hominis": 0.021109879109110687,
+      "staphylococcus hyicus": 0.19841262970484413,
+      "staphylococcus kloosii": 0.17928898059388013,
+      "staphylococcus lentus": 0.17928898059388013,
+      "staphylococcus lugdunensis": 0.15533025306326895,
+      "staphylococcus nepalensis": 0.15533025306326895,
+      "staphylococcus pasteuri": 0.15533025306326895,
+      "staphylococcus pettenkoferi": 0.23123470973025118,
+      "staphylococcus pseudintermedius": 0.15533025306326895,
+      "staphylococcus saprophyticus": 0.12806466990905035,
+      "staphylococcus schleiferi": 0.23123470973025118,
+      "staphylococcus sciuri": 0.19841262970484413,
+      "staphylococcus succinus": 0.1657733375874139,
+      "staphylococcus vitulinus": 0.19841262970484413,
+      "staphylococcus warneri": 0.002509487238135761,
+      "staphylococcus xylosus": 0.015016990219428636
+    },
+    "test_phage_sequence_clusters": 15,
+    "test_host_sequence_clusters": 27
+  },
+  "distribution_shift": {
+    "fraction_of_test_cells_outside_training_range": 0.00238476800976801,
+    "fraction_of_test_rows_with_any_outside_feature": 0.43209876543209874,
+    "median_outside_features_per_row": 0.0,
+    "max_outside_features_per_row": 7
+  },
+  "models": {
+    "full": {
+      "pooled": {
+        "roc_auc": 0.6369932432432432,
+        "pr_auc": 0.39122974473619715,
+        "f1": 0.5027237354085603,
+        "mcc": 0.1521601234901895,
+        "brier": 0.46633952042840376,
+        "n": 1053,
+        "n_pos": 333,
+        "n_neg": 720,
+        "prevalence": 0.3162393162393162,
+        "ece": 0.4992588720225145
+      },
+      "ci_95": {
+        "method": "two-way sequence-cluster bootstrap",
+        "n_valid": 2000,
+        "roc_auc": {
+          "lo": 0.49830810580732104,
+          "hi": 0.7390574514617063
+        },
+        "pr_auc": {
+          "lo": 0.20060204642340373,
+          "hi": 0.590575637119593
+        }
+      },
+      "per_phage_auc": {
+        "n_evaluable": 39,
+        "n_total": 39,
+        "mean": 0.6162682714576252,
+        "median": 0.6250000000000001,
+        "min": 0.10000000000000003,
+        "max": 0.9615384615384616
+      },
+      "per_host_auc": {
+        "n_evaluable": 24,
+        "n_total": 27,
+        "mean": 0.6194622742923755,
+        "median": 0.6628571428571428,
+        "min": 0.17058823529411765,
+        "max": 0.9144736842105263
+      },
+      "subsets": {
+        "host_identifier_unseen": {
+          "roc_auc": 0.625314557731829,
+          "pr_auc": 0.38016359986989734,
+          "f1": 0.5107458912768648,
+          "mcc": 0.17039940153667543,
+          "brier": 0.4492462661871957,
+          "n": 663,
+          "n_pos": 211,
+          "n_neg": 452,
+          "prevalence": 0.31825037707390647
+        },
+        "both_axes_beyond_mash_threshold": {
+          "roc_auc": 0.6439320092603874,
+          "pr_auc": 0.4273233466018104,
+          "f1": 0.544564152791381,
+          "mcc": 0.17475928267490087,
+          "brier": 0.4445201621234648,
+          "n": 805,
+          "n_pos": 283,
+          "n_neg": 522,
+          "prevalence": 0.3515527950310559
+        }
+      }
+    },
+    "sequence_only": {
+      "pooled": {
+        "roc_auc": 0.6393476810143477,
+        "pr_auc": 0.39173409183776087,
+        "f1": 0.4950191570881226,
+        "mcc": 0.11967875149379972,
+        "brier": 0.48726802909697614,
+        "n": 1053,
+        "n_pos": 333,
+        "n_neg": 720,
+        "prevalence": 0.3162393162393162,
+        "ece": 0.5235437681334197
+      },
+      "ci_95": {
+        "method": "two-way sequence-cluster bootstrap",
+        "n_valid": 2000,
+        "roc_auc": {
+          "lo": 0.505299342837065,
+          "hi": 0.7343188654743509
+        },
+        "pr_auc": {
+          "lo": 0.1952501260230931,
+          "hi": 0.5773000913326624
+        }
+      },
+      "per_phage_auc": {
+        "n_evaluable": 39,
+        "n_total": 39,
+        "mean": 0.6217597729196448,
+        "median": 0.5909090909090908,
+        "min": 0.24,
+        "max": 0.9230769230769231
+      },
+      "per_host_auc": {
+        "n_evaluable": 24,
+        "n_total": 27,
+        "mean": 0.6278735658435312,
+        "median": 0.7127578304048893,
+        "min": 0.17352941176470588,
+        "max": 0.9310344827586208
+      },
+      "subsets": {
+        "host_identifier_unseen": {
+          "roc_auc": 0.6402193515916621,
+          "pr_auc": 0.3967358151315618,
+          "f1": 0.4969400244798042,
+          "mcc": 0.11713290822915014,
+          "brier": 0.4741687746835192,
+          "n": 663,
+          "n_pos": 211,
+          "n_neg": 452,
+          "prevalence": 0.31825037707390647
+        },
+        "both_axes_beyond_mash_threshold": {
+          "roc_auc": 0.6652417313133775,
+          "pr_auc": 0.4543850837480214,
+          "f1": 0.532825880114177,
+          "mcc": 0.12433961440739395,
+          "brier": 0.47143977924972225,
+          "n": 805,
+          "n_pos": 283,
+          "n_neg": 522,
+          "prevalence": 0.3515527950310559
+        }
+      }
+    },
+    "vhip_four_feature": {
+      "pooled": {
+        "roc_auc": 0.4441524858191525,
+        "pr_auc": 0.2702894645947148,
+        "f1": 0.38253638253638256,
+        "mcc": -0.062107110549905746,
+        "brier": 0.3529225900952858,
+        "n": 1053,
+        "n_pos": 333,
+        "n_neg": 720,
+        "prevalence": 0.3162393162393162,
+        "ece": 0.2831394117031908
+      },
+      "ci_95": {
+        "method": "two-way sequence-cluster bootstrap",
+        "n_valid": 2000,
+        "roc_auc": {
+          "lo": 0.3363631814216217,
+          "hi": 0.573177193459025
+        },
+        "pr_auc": {
+          "lo": 0.14764722612597972,
+          "hi": 0.4278050559784938
+        }
+      },
+      "per_phage_auc": {
+        "n_evaluable": 39,
+        "n_total": 39,
+        "mean": 0.5287407157686858,
+        "median": 0.54,
+        "min": 0.24,
+        "max": 0.7828947368421053
+      },
+      "per_host_auc": {
+        "n_evaluable": 24,
+        "n_total": 27,
+        "mean": 0.3855703088721829,
+        "median": 0.43214285714285716,
+        "min": 0.040178571428571425,
+        "max": 0.6824324324324325
+      },
+      "subsets": {
+        "host_identifier_unseen": {
+          "roc_auc": 0.4246739084846705,
+          "pr_auc": 0.2634715067485731,
+          "f1": 0.3594009983361065,
+          "mcc": -0.1060452200822111,
+          "brier": 0.366969170030236,
+          "n": 663,
+          "n_pos": 211,
+          "n_neg": 452,
+          "prevalence": 0.31825037707390647
+        },
+        "both_axes_beyond_mash_threshold": {
+          "roc_auc": 0.4675615666842668,
+          "pr_auc": 0.31463582208893887,
+          "f1": 0.4097693351424695,
+          "mcc": -0.04514765874538291,
+          "brier": 0.3341644991829847,
+          "n": 805,
+          "n_pos": 283,
+          "n_neg": 522,
+          "prevalence": 0.3515527950310559
+        }
+      }
+    }
+  }
+}

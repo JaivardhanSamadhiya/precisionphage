@@ -1,0 +1,119 @@
+{
+  "audit": {
+    "host_species_vs_genome_cluster": {
+      "group_col": "host_species",
+      "n_clusters": 297,
+      "n_groups": 323,
+      "clusters_spanning_multiple_groups": 12,
+      "leaky_rows": 419,
+      "leaky_row_fraction": 0.21520287621982537,
+      "leaky_entities": 38,
+      "total_entities": 323,
+      "leaky_entity_fraction": 0.11764705882352941
+    },
+    "host_genus_vs_genome_cluster": {
+      "group_col": "host_genus",
+      "n_clusters": 297,
+      "n_groups": 114,
+      "clusters_spanning_multiple_groups": 5,
+      "leaky_rows": 293,
+      "leaky_row_fraction": 0.1504879301489471,
+      "leaky_entities": 12,
+      "total_entities": 323,
+      "leaky_entity_fraction": 0.03715170278637771
+    }
+  },
+  "results": {
+    "loso_species": {
+      "n_folds_total": 28,
+      "n_folds_used": 28,
+      "n_folds_skipped": 0,
+      "mean_roc_auc": 0.9033336413546655,
+      "std_roc_auc": 0.23789133913566654,
+      "mean_pr_auc": 0.9420004184938382,
+      "pooled_roc_auc": 0.9585914302007748,
+      "pooled_pr_auc": 0.9843442376522863,
+      "ci_mean": {
+        "mean": 0.9033336413546655,
+        "lo": 0.75099164469012,
+        "hi": 0.981702004847727,
+        "n": 28
+      },
+      "ece": 0.020879906363205542
+    },
+    "logo_genus": {
+      "n_folds_total": 28,
+      "n_folds_used": 28,
+      "n_folds_skipped": 0,
+      "mean_roc_auc": 0.8841484342466275,
+      "std_roc_auc": 0.13020968854308246,
+      "mean_pr_auc": 0.9342392112426205,
+      "pooled_roc_auc": 0.9198206673392779,
+      "pooled_pr_auc": 0.9614418066449,
+      "ci_mean": {
+        "mean": 0.8841484342466275,
+        "lo": 0.8327474600161611,
+        "hi": 0.9292585519900001,
+        "n": 28
+      },
+      "ece": 0.056637421265761545
+    },
+    "host_cluster": {
+      "n_folds_total": 26,
+      "n_folds_used": 26,
+      "n_folds_skipped": 0,
+      "mean_roc_auc": 0.8986935457044153,
+      "std_roc_auc": 0.24640071439232902,
+      "mean_pr_auc": 0.9378825449333438,
+      "pooled_roc_auc": 0.9504766949152543,
+      "pooled_pr_auc": 0.9810016417506546,
+      "ci_mean": {
+        "mean": 0.8986935457044153,
+        "lo": 0.7947336999986457,
+        "hi": 0.9754948451393197,
+        "n": 26
+      },
+      "ece": 0.0545917792660408
+    },
+    "phage_cluster": {
+      "n_folds_total": 22,
+      "n_folds_used": 22,
+      "n_folds_skipped": 0,
+      "mean_roc_auc": 0.8581139679563432,
+      "std_roc_auc": 0.153553223498041,
+      "mean_pr_auc": 0.7962697259951049,
+      "pooled_roc_auc": 0.847057962529274,
+      "pooled_pr_auc": 0.7355198639799216,
+      "ci_mean": {
+        "mean": 0.8581139679563432,
+        "lo": 0.7933937043536567,
+        "hi": 0.9180070554758972,
+        "n": 22
+      },
+      "ece": 0.4272722473397153
+    },
+    "combined_unseen": {
+      "n_folds_total": 5,
+      "n_folds_used": 5,
+      "n_folds_skipped": 0,
+      "mean_roc_auc": 0.7988358053603956,
+      "std_roc_auc": 0.06463059719062014,
+      "mean_pr_auc": 0.9189777579346441,
+      "pooled_roc_auc": 0.785223704866562,
+      "pooled_pr_auc": 0.9083609665504372,
+      "ci_mean": {
+        "mean": 0.7988358053603956,
+        "lo": 0.751732835210587,
+        "hi": 0.853578231292517,
+        "n": 5
+      },
+      "ece": 0.1628954088006487
+    }
+  },
+  "cluster_stats": {
+    "n_phage_clusters": 934,
+    "n_host_clusters": 297,
+    "n_phages": 1418,
+    "n_hosts": 323
+  }
+}

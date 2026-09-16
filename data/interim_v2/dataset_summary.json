@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "n_pairs": 8849,
+    "n_pos": 2770,
+    "n_neg": 6079,
+    "n_phages": 2331,
+    "n_hosts": 387,
+    "n_host_species": 380,
+    "n_host_genera": 122,
+    "by_study": {
+      "NahantCollection": 5208,
+      "NCBI_HR": 2588,
+      "StaphStudy": 1053
+    },
+    "n_conflicts": 0
+  },
+  "phage_coverage": {
+    "n": 2331,
+    "resolved": 1418,
+    "fraction": 0.6083226083226083
+  },
+  "host_coverage": {
+    "n": 387,
+    "resolved": 323,
+    "fraction": 0.834625322997416
+  },
+  "n_modelable": 1947
+}

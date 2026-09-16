@@ -1,0 +1,44 @@
+[
+  {
+    "variant": "knn",
+    "n": 401,
+    "success": 0.9152119700748129,
+    "constituent_positive_fraction": 0.6899418121363259
+  },
+  {
+    "variant": "unbalanced_logistic",
+    "n": 402,
+    "success": 0.9054726368159204,
+    "constituent_positive_fraction": 0.7155887230514096
+  },
+  {
+    "variant": "raw_mean",
+    "n": 401,
+    "success": 0.9052369077306733,
+    "constituent_positive_fraction": 0.7206982543640897
+  },
+  {
+    "variant": "raw_mean_alpha_0.75",
+    "n": 402,
+    "success": 0.9029850746268657,
+    "constituent_positive_fraction": 0.7197346600331674
+  },
+  {
+    "variant": "raw_mean_alpha_0.5",
+    "n": 401,
+    "success": 0.8802992518703242,
+    "constituent_positive_fraction": 0.7024106400665004
+  },
+  {
+    "variant": "raw_mean_alpha_0.25",
+    "n": 401,
+    "success": 0.8653366583541147,
+    "constituent_positive_fraction": 0.6608478802992519
+  },
+  {
+    "variant": "prevalence",
+    "n": 401,
+    "success": 0.8379052369077307,
+    "constituent_positive_fraction": 0.5943474646716541
+  }
+]

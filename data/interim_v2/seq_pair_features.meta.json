@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "n_pairs": 1947,
+  "pair_order_sha256": "043101874530bcf9ff108f191e70d35798fc16e4d7fd5291355416fcb39f5301",
+  "phage_source_sha256": "b86968127370d31c2a3f2ecef9629421fa4d56b6d6c3e284b0c3e9421391ed98",
+  "host_source_sha256": "171e4748d855ee2026492d06eba5dabdced7a57112d1a50ffdf6d5d7daf633c4",
+  "homology_ks": [
+    16,
+    20
+  ],
+  "crispr_repeat_k": 23,
+  "crispr_match_k": 20,
+  "use_protein_features": true,
+  "protein_k": 7,
+  "protein_min_pep": 90
+}

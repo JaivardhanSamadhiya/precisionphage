@@ -1,0 +1,5 @@
+budget,ilp_true_coverage,greedy_true_coverage
+5,0.135,0.135
+10,0.17,0.178
+20,0.235,0.226
+30,0.27,0.27

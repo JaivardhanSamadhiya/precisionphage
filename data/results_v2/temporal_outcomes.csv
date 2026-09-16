@@ -1,0 +1,5 @@
+strategy,n_phages,end_load,nadir,log10_drop,resistant_frac_end,rebound
+control,0,1000000000.0,5000000.0,0.0,0.0,False
+monophage,1,999997256.5061868,5000000.0,0.0,0.0,False
+cocktail_k1,3,1000000002.8204194,16897.11386347706,2.47,1.0,True
+robust_k2,6,1000000001.4403596,39828.70870192039,2.1,1.0,True

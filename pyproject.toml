@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "precisionphage"
+version = "2.0.0"
+description = "Leakage-controlled phage-host interaction prediction and fixed-bank cocktail prioritization."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "scikit-learn>=1.3",
+    "biopython>=1.81",
+    "networkx>=3.1",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "pyyaml>=6.0",
+    "torch>=2.1",
+    "torch-geometric>=2.4",
+    "xgboost>=2.0",
+]
+
+[project.optional-dependencies]
+extras = ["shap", "umap-learn"]
+
+[project.urls]
+Repository = "https://github.com/JaivardhanSamadhiya/precisionphage"
+Documentation = "https://github.com/JaivardhanSamadhiya/precisionphage#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.precisionphage]
+# Reproducibility note: the canonical Python 3.11 CPU environment is pinned in
+# requirements-lock.txt. See configs/default.yaml for analysis parameters.

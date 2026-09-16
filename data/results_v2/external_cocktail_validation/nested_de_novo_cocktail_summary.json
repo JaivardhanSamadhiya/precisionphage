@@ -1,0 +1,99 @@
+{
+  "design": "nested 10-fold host-grouped cross-validation",
+  "n_hosts_total": 402,
+  "n_distance_components": 302,
+  "n_hosts_with_complete_selected_outcomes": 400,
+  "designed_success": 0.6075,
+  "baseline_success": 0.8375,
+  "success_difference": -0.23,
+  "success_difference_cluster_bootstrap_95_ci": [
+    -0.29334126984126985,
+    -0.16867328799977427
+  ],
+  "designed_constituent_positive_fraction": 0.35416666666666663,
+  "baseline_constituent_positive_fraction": 0.5933333333333333,
+  "constituent_positive_fraction_difference": -0.23916666666666667,
+  "constituent_difference_cluster_bootstrap_95_ci": [
+    -0.2828834603834604,
+    -0.19649078615935306
+  ],
+  "designed_mean_max_mlc": 1.6025,
+  "baseline_mean_max_mlc": 2.2125,
+  "fold_settings": [
+    {
+      "fold": 0,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 361,
+      "n_test": 41
+    },
+    {
+      "fold": 1,
+      "logistic_C": 1.0,
+      "knn_k": 40,
+      "n_train": 361,
+      "n_test": 41
+    },
+    {
+      "fold": 2,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 3,
+      "logistic_C": 0.1,
+      "knn_k": 20,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 4,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 5,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 6,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 7,
+      "logistic_C": 1.0,
+      "knn_k": 20,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 8,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 362,
+      "n_test": 40
+    },
+    {
+      "fold": 9,
+      "logistic_C": 0.1,
+      "knn_k": 40,
+      "n_train": 362,
+      "n_test": 40
+    }
+  ],
+  "interpretation": [
+    "All selections for a held-out host were made without its interaction labels.",
+    "This is internal grouped validation in the Picard matrix, not an external wet-lab test of these newly selected cocktails.",
+    "The external ColoColi analysis separately validates locked scoring of experimentally tested cocktails on unseen hosts."
+  ]
+}

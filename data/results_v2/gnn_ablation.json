@@ -1,0 +1,154 @@
+{
+  "auc": [
+    {
+      "regime": "loso_species",
+      "model": "GBM",
+      "auc": 0.9585914302007748,
+      "auc_lo": 0.944304231058668,
+      "auc_hi": 0.9728786293428815,
+      "ece": 0.020879906363205542
+    },
+    {
+      "regime": "loso_species",
+      "model": "GNN_graph",
+      "auc": 0.8690686881796554,
+      "auc_lo": 0.8387782309916505,
+      "auc_hi": 0.8993591453676604,
+      "ece": 0.10687679977426508
+    },
+    {
+      "regime": "loso_species",
+      "model": "GNN_nograph",
+      "auc": 0.8374997541934595,
+      "auc_lo": 0.8118586792929788,
+      "auc_hi": 0.8631408290939401,
+      "ece": 0.1336054910364129
+    },
+    {
+      "regime": "host_cluster",
+      "model": "GBM",
+      "auc": 0.9504766949152543,
+      "auc_lo": 0.9344718534195419,
+      "auc_hi": 0.9664815364109668,
+      "ece": 0.0545917792660408
+    },
+    {
+      "regime": "host_cluster",
+      "model": "GNN_graph",
+      "auc": 0.8534872503026634,
+      "auc_lo": 0.8224233977992487,
+      "auc_hi": 0.8845511028060781,
+      "ece": 0.1175996785545982
+    },
+    {
+      "regime": "host_cluster",
+      "model": "GNN_nograph",
+      "auc": 0.8410496746368037,
+      "auc_lo": 0.8157771004756025,
+      "auc_hi": 0.8663222487980049,
+      "ece": 0.13460665034679448
+    },
+    {
+      "regime": "phage_cluster",
+      "model": "GBM",
+      "auc": 0.8470579625292742,
+      "auc_lo": 0.8081065904575222,
+      "auc_hi": 0.8860093346010263,
+      "ece": 0.4272722473397153
+    },
+    {
+      "regime": "phage_cluster",
+      "model": "GNN_graph",
+      "auc": 0.751844262295082,
+      "auc_lo": 0.7022420141633889,
+      "auc_hi": 0.8014465104267752,
+      "ece": 0.4415421559087022
+    },
+    {
+      "regime": "phage_cluster",
+      "model": "GNN_nograph",
+      "auc": 0.734557962529274,
+      "auc_lo": 0.6854363890587921,
+      "auc_hi": 0.7836795359997558,
+      "ece": 0.3186735893311893
+    },
+    {
+      "regime": "combined_unseen",
+      "model": "GBM",
+      "auc": 0.7852237048665618,
+      "auc_lo": 0.7355067779992742,
+      "auc_hi": 0.8349406317338494,
+      "ece": 0.1628954088006487
+    },
+    {
+      "regime": "combined_unseen",
+      "model": "GNN_graph",
+      "auc": 0.6724391679748822,
+      "auc_lo": 0.6126890814705048,
+      "auc_hi": 0.7321892544792596,
+      "ece": 0.06967626950099838
+    },
+    {
+      "regime": "combined_unseen",
+      "model": "GNN_nograph",
+      "auc": 0.5757947409733124,
+      "auc_lo": 0.5094334895997571,
+      "auc_hi": 0.6421559923468677,
+      "ece": 0.2127961632315618
+    }
+  ],
+  "comparison": [
+    {
+      "regime": "loso_species",
+      "auc_graph": 0.8690686881796554,
+      "auc_nograph": 0.8374997541934595,
+      "graph_gain": 0.03156893398619598,
+      "graph_delong_p": 0.027065335057046298,
+      "auc_gbm": 0.9585914302007748,
+      "gbm_minus_graph": 0.08952274202111932,
+      "gbm_delong_p": 9.31214583893605e-12,
+      "graph_q_bh": 0.054130670114092595,
+      "graph_helps_fdr05": false,
+      "gbm_q_bh": 1.86242916778721e-11
+    },
+    {
+      "regime": "host_cluster",
+      "auc_graph": 0.8534872503026634,
+      "auc_nograph": 0.8410496746368037,
+      "graph_gain": 0.01243757566585968,
+      "graph_delong_p": 0.41595990519537074,
+      "auc_gbm": 0.9504766949152543,
+      "gbm_minus_graph": 0.09698944461259096,
+      "gbm_delong_p": 1.1398401398231893e-12,
+      "graph_q_bh": 0.519945724993047,
+      "graph_helps_fdr05": false,
+      "gbm_q_bh": 4.559360559292757e-12
+    },
+    {
+      "regime": "phage_cluster",
+      "auc_graph": 0.751844262295082,
+      "auc_nograph": 0.734557962529274,
+      "graph_gain": 0.01728629976580809,
+      "graph_delong_p": 0.519945724993047,
+      "auc_gbm": 0.8470579625292742,
+      "gbm_minus_graph": 0.09521370023419218,
+      "gbm_delong_p": 0.00013416368097161752,
+      "graph_q_bh": 0.519945724993047,
+      "graph_helps_fdr05": false,
+      "gbm_q_bh": 0.0001788849079621567
+    },
+    {
+      "regime": "combined_unseen",
+      "auc_graph": 0.6724391679748822,
+      "auc_nograph": 0.5757947409733124,
+      "graph_gain": 0.09664442700156983,
+      "graph_delong_p": 0.0028932943050976605,
+      "auc_gbm": 0.7852237048665618,
+      "gbm_minus_graph": 0.11278453689167955,
+      "gbm_delong_p": 0.0005383382402730661,
+      "graph_q_bh": 0.011573177220390642,
+      "graph_helps_fdr05": true,
+      "gbm_q_bh": 0.0005383382402730661
+    }
+  ]
+}
